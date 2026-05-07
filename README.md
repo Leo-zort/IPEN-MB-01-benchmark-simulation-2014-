@@ -12,27 +12,28 @@ The work reexamines the critical loading configurations of the IPEN/MB‑01 rese
 
 ## Repository Structure
 
-├── cs/ # Figures for carbon steel reflector
-│ ├── Eff_albedo(CS).png # Energy‑dependent effective albedo vs thickness
-│ ├── Absorption Probability (CS).png # Energy‑dependent absorption probability
-│ ├── Scatter Probability (CS).png # Energy‑dependent elastic scattering probability
-│ ├── flux_map_cs.svg # Full flux map (all three groups combined)
-│ ├── short_flux_map_cs.png # Compact flux map for selected cases
-│ ├── thermal_flux_cs.png # Thermal flux distribution inside the reflector
-│ ├── epithermal_flux_cs.png # Epithermal flux distribution inside the reflector
-│ └── fast_flux_cs.png # Fast flux distribution inside the reflector
-├── ni/ # Figures for nickel reflector
-│ ├── Plot_eff_(Ni).png # Energy‑dependent effective albedo vs thickness
-│ ├── Absorption Probability (Ni).png # Energy‑dependent absorption probability
-│ ├── Scatter Probability (Ni).png # Energy‑dependent elastic scattering probability
-│ ├── flux_map_ni.png # Full flux map (raster format)
-│ ├── flux_map_ni.svg # Full flux map (vector format)
-│ ├── thermal_flux_ni.png # Thermal flux distribution inside the reflector
-│ ├── epithermal_flux_ni.png # Epithermal flux distribution inside the reflector
-│ └── fast_flux_ni.png # Fast flux distribution inside the reflector
-├── albedo_with_uncertainty.ods # Albedo values with Monte Carlo statistical uncertainties
-├── modelo_py.py # Python script for generating MCNP & Serpent inputs
-└── README.md
+| Directory / File | Description |
+|------------------|-------------|
+| `cs/` | **Carbon steel reflector figures** |
+| `cs/Eff_albedo(CS).png` | Energy‑dependent effective albedo vs thickness |
+| `cs/Absorption Probability (CS).png` | Energy‑dependent absorption probability |
+| `cs/Scatter Probability (CS).png` | Energy‑dependent elastic scattering probability |
+| `cs/flux_map_cs.svg` | Full flux map (vector format) |
+| `cs/short_flux_map_cs.png` | Compact flux map for selected cases |
+| `cs/thermal_flux_cs.png` | Thermal flux distribution inside the reflector |
+| `cs/epithermal_flux_cs.png` | Epithermal flux distribution inside the reflector |
+| `cs/fast_flux_cs.png` | Fast flux distribution inside the reflector |
+| `ni/` | **Nickel reflector figures** |
+| `ni/Plot_eff_(Ni).png` | Energy‑dependent effective albedo vs thickness |
+| `ni/Absorption Probability (Ni).png` | Energy‑dependent absorption probability |
+| `ni/Scatter Probability (Ni).png` | Energy‑dependent elastic scattering probability |
+| `ni/flux_map_ni.png` | Full flux map (raster format) |
+| `ni/flux_map_ni.svg` | Full flux map (vector format) |
+| `ni/thermal_flux_ni.png` | Thermal flux distribution inside the reflector |
+| `ni/epithermal_flux_ni.png` | Epithermal flux distribution inside the reflector |
+| `ni/fast_flux_ni.png` | Fast flux distribution inside the reflector |
+| `albedo_com_uncertainty.ods` | Albedo values with Monte Carlo statistical uncertainties |
+| `modelo_py.py` | Python script that generates MCNP5 and Serpent input files for all cases |
 
 ## File Descriptions
 
